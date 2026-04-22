@@ -2,40 +2,40 @@
   "products": [
     {
       "id": "1",
-      "name": "TrailFlex Running Shoes",
-      "price": 89.99,
+      "name": "Vintage Black Hoodie",
+      "price": 45,
       "stock": 34,
-      "description": "Lightweight running shoes with breathable mesh and responsive foam support.",
-      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+      "description": "A comfortable black hoodie.",
+      "image": "https://images.unsplash.com/photo-1637185766875-b64f2c6fff57?q=80&w=987&auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": "2",
-      "name": "TerraBottle Insulated Flask",
-      "price": 29.5,
+      "name": "Vintage White Sneakers",
+      "price": 70.95,
       "stock": 57,
-      "description": "Double-wall stainless steel bottle that keeps drinks cold for 24 hours.",
-      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=80"
+      "description": "Simple white sneakers for everyday wear.",
+      "image": "https://images.unsplash.com/photo-1659927386877-55d8bd8d6913?q=80&w=1450&auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": "3",
-      "name": "Summit 20L Daypack",
-      "price": 64,
+      "name": "Vintage Baseball Cap",
+      "price": 25,
       "stock": 22,
-      "description": "Compact daypack with ergonomic straps, laptop sleeve, and water-resistant shell.",
-      "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=900&q=80"
+      "description": "A stylish baseball cap.",
+      "image": "https://images.unsplash.com/photo-1720534490358-bc2ad29d51d5?q=80&w=1587&auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": "4",
-      "name": "Pulse Wireless Earbuds",
-      "price": 119.95,
+      "name": "Vintage Blue Wideleg Jeans",
+      "price": 49.99,
       "stock": 41,
-      "description": "Noise-reducing wireless earbuds with 30-hour battery case and quick charge.",
-      "image": "https://images.unsplash.com/photo-1588156979435-379b9d802b0d?auto=format&fit=crop&w=900&q=80"
+      "description": "Comfortable loose fitting denim jeans.",
+      "image": "https://images.unsplash.com/photo-1771736822476-8a890f94ab73?q=80&w=1587&auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": "5",
-      "name": "Forge Ceramic Coffee Mug",
-      "price": 18.75,
+      "name": "Vintage Long Sleeve Lace Shirt",
+      "price": 26.75,
       "stock": 85,
       "description": "Hand-finished ceramic mug with a matte glaze and comfortable wide handle.",
       "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=900&q=80"
