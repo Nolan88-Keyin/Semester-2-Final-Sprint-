@@ -5,8 +5,16 @@
 }
 
 .navbar {
-  max-width: 780px;
-  margin: 0 auto;
+  width: 100%;
+  background-color: #181818;
+  border-bottom: 1px solid #2a2a2a;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-list {

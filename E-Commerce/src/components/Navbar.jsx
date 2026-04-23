@@ -25,6 +25,7 @@ function Navbar({ cartItemCount = 0 }) {
             {cartItemCount}
           </li>
         </ul>
+        <h1 className='logo'>VINTAGE ESSENTIALS</h1>
       </nav>
     </header>
   )

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ProductList({ products = [], addToCart }) {
   return (
     <div>
-      <h2 className="section-title">Products</h2>
+      <h2 className="section-title">PRODUCTS</h2>
 
       <div className="product-grid">
         {products.map((product) => (

@@ -10,23 +10,25 @@ function Home({ fetchProducts, addToCart }) {
       const loadedProducts = await fetchProducts()
       setProducts(loadedProducts)
       setIsLoading(false)
-      console.log("LOADED:", loadedProducts)
     }
 
     loadProducts()
   }, [fetchProducts])
 
   return (
-    <main>
-      <section>
-        <h1>Better. Be. Vintage.</h1>
-        <p>Timeless pieces. Modern attitude.</p>
+    <main className='page-containter'>
+      <section className='hero-section'>
+        <h2 className='page-title'>Better. Be. Vintage.</h2>
+        <p className='page-subtitle'>Timeless pieces. Modern attitude.</p>
+        </section>
+
+        <section className='products-section'>
         {isLoading ? (
-          <p>Loading products...</p>
+          <p className='empty-message'>Loading products...</p>
         ) : (
           <ProductList products={products} addToCart={addToCart} />
         )}
-      </section>
+        </section>
     </main>
   )
 }
