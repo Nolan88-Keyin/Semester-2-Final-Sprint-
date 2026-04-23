@@ -28,9 +28,7 @@ function ProductDetails({ addToCart, fetchProductById }) {
         ) : (
           <ProductDetail product={product} addToCart={addToCart} />
         )}
-        <p>
-          <Link to="/">Back to catalog</Link>
-        </p>
+        
       </section>
     </main>
   )
