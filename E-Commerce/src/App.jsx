@@ -26,7 +26,7 @@ function App() {
   /* Fetch all products */
   const fetchProducts = async () => {
     try {
-      const res = await fetch("http://localhost:5000/products")
+      const res = await fetch("http://localhost:3000/products")
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`)
       const data = await res.json()
       return data
@@ -40,7 +40,7 @@ function App() {
   /* Fetch single product by ID */
   const fetchProductById = async (id) => {
     try {
-      const res = await fetch(`http://localhost:5000/products/${id}`)
+      const res = await fetch(`http://localhost:3000/products/${id}`)
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`)
       const data = await res.json()
       return data
@@ -58,7 +58,7 @@ function App() {
   /* Fetch cart items */
   const fetchCart = async () => {
     try {
-      const res = await fetch("http://localhost:5000/cart")
+      const res = await fetch("http://localhost:3000/cart")
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`)
       const data = await res.json()
       return data
@@ -86,7 +86,7 @@ function App() {
   /* Update item in cart */
   let updateCartItem = async (cartId, updates) => {
     try {
-      const res = await fetch(`http://localhost:5000/cart/${cartId}`, {
+      const res = await fetch(`http://localhost:3000/cart/${cartId}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json"
@@ -120,7 +120,7 @@ function App() {
         quantity: product.quantity ?? 1
       }
 
-      const res = await fetch("http://localhost:5000/cart", {
+      const res = await fetch("http://localhost:3000/cart", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -139,7 +139,7 @@ function App() {
   /* Remove item from cart */
   let removeFromCart = async (cartId) => {
     try {
-      const res = await fetch(`http://localhost:5000/cart/${cartId}`, {
+      const res = await fetch(`http://localhost:3000/cart/${cartId}`, {
         method: "DELETE"
       })
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`)
@@ -154,7 +154,7 @@ function App() {
   let clearCart = async () => {
     try {
       for (let item of cartItems) {
-        await fetch(`http://localhost:5000/cart/${item.id}`, {
+        await fetch(`http://localhost:3000/cart/${item.id}`, {
           method: "DELETE"
         })
       }

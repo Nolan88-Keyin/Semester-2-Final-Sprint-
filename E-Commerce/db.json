@@ -11,7 +11,7 @@
     {
       "id": "2",
       "name": "Vintage White Sneakers",
-      "price": 70.95,
+      "price": 70,
       "stock": 57,
       "description": "Simple white sneakers for everyday wear.",
       "image": "https://images.unsplash.com/photo-1659927386877-55d8bd8d6913?q=80&w=1450&auto=format&fit=crop&w=800&q=80"
@@ -27,26 +27,26 @@
     {
       "id": "4",
       "name": "Vintage Blue Wideleg Jeans",
-      "price": 49.99,
+      "price": 50,
       "stock": 41,
       "description": "Comfortable loose fitting denim jeans.",
       "image": "https://images.unsplash.com/photo-1771736822476-8a890f94ab73?q=80&w=1587&auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": "5",
-      "name": "Vintage Long Sleeve Lace Shirt",
-      "price": 26.75,
-      "stock": 85,
-      "description": "Hand-finished ceramic mug with a matte glaze and comfortable wide handle.",
-      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=900&q=80"
+      "name": "Vintage Women's White Sunglasses",
+      "price": 25,
+      "stock": 5,
+      "description": "Tined white sunglasses perfect for hot sunny days.",
+      "image": "https://images.unsplash.com/photo-1675215452949-b7727b6e2808?q=80&w=1528&auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": "6",
-      "name": "Northline Cotton Hoodie",
-      "price": 54.99,
+      "name": "Vintage Plaid Button Blazer",
+      "price": 54,
       "stock": 29,
-      "description": "Mid-weight cotton hoodie with brushed interior and minimal stitched logo.",
-      "image": "https://images.unsplash.com/photo-1618354691321-e851c56960d1?auto=format&fit=crop&w=900&q=80"
+      "description": "Oversized women's blazer.",
+      "image": "https://plus.unsplash.com/premium_photo-1705351635907-a92492e4262e?q=80&w=1587&auto=format&fit=crop&w=800&q=80"
     }
   ],
   "cart": [],

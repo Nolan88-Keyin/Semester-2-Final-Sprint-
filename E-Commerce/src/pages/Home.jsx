@@ -10,6 +10,7 @@ function Home({ fetchProducts, addToCart }) {
       const loadedProducts = await fetchProducts()
       setProducts(loadedProducts)
       setIsLoading(false)
+      console.log("LOADED:", loadedProducts)
     }
 
     loadProducts()
