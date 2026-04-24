@@ -1,6 +1,12 @@
+/* Main application componant.*/
+/* April 22, 2026*/
+
+/* React and routing imports*/
 import { useEffect, useState } from 'react'
-import './App.css'
 import { Routes, Route } from 'react-router-dom'
+/* Styling*/
+import './App.css'
+/* Page Componants*/
 import Home from './pages/Home'
 import ProductDetails from './pages/DetailsPage'
 import CartPage from './pages/CartPage'
@@ -19,7 +25,7 @@ function App() {
     }, 5000)
   }
 
-  /*==================================*/
+
   /* Product API calls */
   /*==================================*/
 
@@ -51,7 +57,7 @@ function App() {
     }
   }
 
-  /*==================================*/
+
   /* Cart API calls */
   /*==================================*/
 

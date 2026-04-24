@@ -1,14 +1,19 @@
+// CHECKOUT PAGE 
+// Users can view final total and place orders
+
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import CartPrice from '../components/CartPrice'
 
 function Checkout({ cartItems = [], clearCart = () => {} }) {
+  // tracks if the order has been submitted so we can show comfirmation message.
   const [isSubmitted, setIsSubmitted] = useState(false)
-
+  // places the order when user clicks the button
   const handlePlaceOrder = async () => {
-    setIsSubmitted(true)
-    await clearCart()
-  }
+    setIsSubmitted(true);
+    // clear the cart after order is placed
+    await clearCart();
+  };
 
   return (
     <div>
