@@ -1,16 +1,53 @@
-# React + Vite
+# E-COMMERCE APP
+## Final Sprint 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a REACT application shopping app that lets users browse a product catalog, view detailed product pages, manage a cart, and complete a simulated checkout flow. It demonstrates a full e-commerce experience using json server mock API data and shopping functionality.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Contributions
+REBECCA
 
-## React Compiler
+    -Functionality (State & Logic)
+    
+    -Cart logic (Add, remove, update)
+    
+    -State management (use State, use Effect)
+    
+    -Total price Calculations
+    
+    -Connect UI to logic
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+MORGAN
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    -Front-End
+    
+    -(design + layout)
+    
+    -Build layout for all 4 pages
+    
+    -Css styling (Match Figma)
+    
+    -Componants
+    
+        -Nav bar Product Card, buttons
+
+
+NOLAN
+
+    -Back-End + Routing + testing
+    
+    -Json Server setup
+    
+    -API calls
+    
+    -React Router setup
+    
+    -Unit testing (3 commponants) 
+
+
+
+SHARED GROUP RESPONSIBILITIES
+ - Figma design (Ideas)
+ - Debugging
+ - Final thoughts & polishing

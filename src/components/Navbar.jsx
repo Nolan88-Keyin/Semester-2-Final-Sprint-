@@ -1,3 +1,4 @@
+// Navigation bar with links and cart count
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 

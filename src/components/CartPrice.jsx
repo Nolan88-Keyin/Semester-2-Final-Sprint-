@@ -1,3 +1,4 @@
+// Calculates and displays cart total price
 function CartPrice({ items = [] }) {
   let total = 0;
 
@@ -7,7 +8,7 @@ function CartPrice({ items = [] }) {
 
   const roundedTotal = Math.round(total * 100) / 100;
 
-  return <h2 className="cart-total">Total: ${roundedTotal}</h2>;
+  return <h2 className="cart-total" style={{ marginLeft: '1.5rem' }}>Total: ${roundedTotal}</h2>;
 }
 
 export default CartPrice;

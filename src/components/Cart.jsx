@@ -1,12 +1,13 @@
+// Displays and manages cart items
 import CartPrice from "./CartPrice";
 
 function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
   return (
     <div>
-      <h2 className="section-title">Cart</h2>
+      <h2 className="section-title" style={{ marginLeft: '1rem', marginTop: '1rem' }}>Cart</h2>
 
       {cart.length === 0 ? (
-        <p className="empty-message">Your cart is empty.</p>
+        <p className="empty-message" style={{ marginLeft: '1.5rem' }}>Your cart is empty.</p>
       ) : (
         <div className="cart-list">
           {cart.map((item) => (

@@ -17,7 +17,7 @@ function Checkout({ cartItems = [], clearCart = () => {} }) {
 
   return (
     <div>
-      <h1 className="page-title">Checkout</h1>
+      <h1 className="page-title" style={{ marginLeft: '1rem', marginBottom: '1rem' }}>Checkout</h1>
 
       {isSubmitted ? (
         <div className="checkout-card">
@@ -27,11 +27,11 @@ function Checkout({ cartItems = [], clearCart = () => {} }) {
           </p>
         </div>
       ) : cartItems.length === 0 ? (
-        <p className="empty-message">
+        <p className="empty-message" style={{ marginLeft: '1rem' }}>
           No items to review. <Link to="/">Browse products</Link>
         </p>
       ) : (
-        <div className="checkout-card">
+        <div className="checkout-card" style={{ marginLeft: '1rem' }}>
           {cartItems.map((item) => (
             <div className="checkout-item" key={item.id}>
               <span>{item.name}</span>
