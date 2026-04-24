@@ -14,9 +14,6 @@ function App() {
   const [error, setError] = useState(null)
   const showError = (message) => {
     setError(message)
-    setTimeout(() => {
-      setError(null)
-    }, 5000)
   }
 
   /*==================================*/
