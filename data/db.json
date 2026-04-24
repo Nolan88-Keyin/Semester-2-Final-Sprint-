@@ -51,7 +51,7 @@
   ],
   "cart": [
     {
-      "id": "9aF4AiRf5ys",
+      "id": "Wl0aYVq2Bgc",
       "name": "Vintage Black Hoodie",
       "price": 45,
       "stock": 34,
@@ -60,13 +60,13 @@
       "quantity": 1
     },
     {
-      "id": "ccq3g1biN5g",
+      "id": "lQM2nOF93nM",
       "name": "Vintage White Sneakers",
       "price": 70,
       "stock": 57,
       "description": "Simple white sneakers for everyday wear.",
       "image": "https://images.unsplash.com/photo-1659927386877-55d8bd8d6913?q=80&w=1450&auto=format&fit=crop&w=800&q=80",
-      "quantity": 2
+      "quantity": 1
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
