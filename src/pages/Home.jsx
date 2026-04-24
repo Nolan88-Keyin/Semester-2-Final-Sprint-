@@ -24,7 +24,7 @@ function Home({ fetchProducts, addToCart }) {
 
         <section className='products-section'>
         {isLoading ? (
-          <p className='empty-message'>Loading products...</p>
+          <p className='empty-message' style={{ marginLeft: '1.5rem' }}>Loading products...</p>
         ) : (
           <ProductList products={products} addToCart={addToCart} />
         )}

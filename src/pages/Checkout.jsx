@@ -22,7 +22,7 @@ function Checkout({ cartItems = [], clearCart = () => {} }) {
           </p>
         </div>
       ) : cartItems.length === 0 ? (
-        <p className="empty-message">
+        <p className="empty-message" style={{ marginLeft: '1rem' }}>
           No items to review. <Link to="/">Browse products</Link>
         </p>
       ) : (
