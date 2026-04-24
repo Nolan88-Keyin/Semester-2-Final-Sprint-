@@ -6,28 +6,28 @@ This is a REACT application shopping app that lets users browse a product catalo
 
 # Contributions
 REBECCA
-    Functionality (State & Logic)
-    Cart logic (Add, remove, update)
-    State management (use State, use Effect)
-    Total price Calculations
-    Connect UI to logic
+    -Functionality (State & Logic)
+    -Cart logic (Add, remove, update)
+    -State management (use State, use Effect)
+    -Total price Calculations
+    -Connect UI to logic
 
-·
+
 MORGAN
-    Front-End
-    (design + layout)
-    Build layout for all 4 pages
-    Css styling (Match Figma)
-    Componants
+    -Front-End
+    -(design + layout)
+    -Build layout for all 4 pages
+    -Css styling (Match Figma)
+    -Componants
         -Nav bar Product Card, buttons
 
 
 NOLAN
-    Back-End + Routing + testing
-    Json Server setup
-    API calls
-    React Router setup
-    Unit testing (3 commponants) 
+    -Back-End + Routing + testing
+    -Json Server setup
+    -API calls
+    -React Router setup
+    -Unit testing (3 commponants) 
 
 
 
