@@ -20,7 +20,7 @@ function ProductDetails({ addToCart, fetchProductById }) {
   return (
     <main>
       <section>
-        <h1>Product Details</h1>
+        <h1 style={{ marginLeft: '1rem' }}>Product Details</h1>
         {isLoading ? (
           <p>Loading product...</p>
         ) : !product ? (

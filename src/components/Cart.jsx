@@ -4,7 +4,7 @@ import CartPrice from "./CartPrice";
 function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
   return (
     <div>
-      <h2 className="section-title">Cart</h2>
+      <h2 className="section-title" style={{ marginLeft: '1rem', marginTop: '1rem' }}>Cart</h2>
 
       {cart.length === 0 ? (
         <p className="empty-message">Your cart is empty.</p>

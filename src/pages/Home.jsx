@@ -18,8 +18,8 @@ function Home({ fetchProducts, addToCart }) {
   return (
     <main className='page-containter'>
       <section className='hero-section'>
-        <h2 className='page-title'>Better. Be. Vintage.</h2>
-        <p className='page-subtitle'>Timeless pieces. Modern attitude.</p>
+        <h2 className='page-title' style={{ marginLeft: '1rem', marginBottom: '1rem' }}>Better. Be. Vintage.</h2>
+        <p className='page-subtitle' style={{ marginLeft: '2rem' }}>Timeless pieces. Modern attitude.</p>
         </section>
 
         <section className='products-section'>
