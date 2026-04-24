@@ -1,7 +1,7 @@
 # E-COMMERCE APP
 ## Final Sprint 2
 
-
+This is a REACT application shopping app that lets users browse a product catalog, view detailed product pages, manage a cart, and complete a simulated checkout flow. It demonstrates a full e-commerce experience using json server mock API data and shopping functionality.
 
 
 # Contributions
