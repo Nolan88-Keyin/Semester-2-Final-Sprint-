@@ -19,19 +19,29 @@ REBECCA
 
 
 MORGAN
+
     -Front-End
+    
     -(design + layout)
+    
     -Build layout for all 4 pages
+    
     -Css styling (Match Figma)
+    
     -Componants
+    
         -Nav bar Product Card, buttons
 
 
 NOLAN
     -Back-End + Routing + testing
+    
     -Json Server setup
+    
     -API calls
+    
     -React Router setup
+    
     -Unit testing (3 commponants) 
 
 
