@@ -1,7 +1,4 @@
-/*
- * ErrorMessage Component
- * Displays error messages in a banner at the top of the page with a close button.
- */
+// Displays error messages with close button
 
 function ErrorMessage({ message, onClose }) {
   if (!message) return null;

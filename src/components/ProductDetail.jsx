@@ -1,3 +1,4 @@
+// Displays detailed product information
 import { Link } from "react-router-dom";
 
 function ProductDetail({ product, addToCart }) {

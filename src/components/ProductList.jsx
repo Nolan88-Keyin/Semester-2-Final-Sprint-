@@ -1,3 +1,4 @@
+// Displays grid of products with add/view options
 import { Link } from "react-router-dom";
 
 function ProductList({ products = [], addToCart }) {

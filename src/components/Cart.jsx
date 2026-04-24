@@ -1,3 +1,4 @@
+// Displays and manages cart items
 import CartPrice from "./CartPrice";
 
 function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {

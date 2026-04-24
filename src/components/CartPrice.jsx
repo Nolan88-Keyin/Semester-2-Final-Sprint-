@@ -1,3 +1,4 @@
+// Calculates and displays cart total price
 function CartPrice({ items = [] }) {
   let total = 0;
 
