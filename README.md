@@ -6,10 +6,15 @@ This is a REACT application shopping app that lets users browse a product catalo
 
 # Contributions
 REBECCA
+
     -Functionality (State & Logic)
+    
     -Cart logic (Add, remove, update)
+    
     -State management (use State, use Effect)
+    
     -Total price Calculations
+    
     -Connect UI to logic
 
 
